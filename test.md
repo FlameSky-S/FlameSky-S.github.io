@@ -1,3 +1,4 @@
+<html>
 <head>
 <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
  
@@ -193,3 +194,5 @@ $$P_S(w_3|w_1,w_2) = \lambda_1 \cdot P_1(w_3) + \lambda_2 \cdot P_2(w_3|w_2) + \
 $$P_S(w_3|w_1,w_2) = \lambda_1 \frac {C(w_3)}{M} + \lambda_2 \frac {C(w_2,w_3)}{C(w_2)} + \lambda_3 \frac {C(w_1,w_2,w_3)}{C(w_1,w_2)}$$
 
 由于三元模型需要前两个字的信息，所以在句首尾的处理上与二元模型有所不同。首先考虑句首，添加两个句首标记`'#'`，
+
+</html>
